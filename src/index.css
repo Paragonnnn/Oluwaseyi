@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark: #222222;
+  --color-light: #f8f8f8;
+  --color-line: #e5e7eb;
+  --color-accent: #F06543;
+}
+
+* {
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+  font-family: monospace;
+}
+*::selection{
+  background: #F06543;
+}
+body {
+  /* background-color: #222222; */
+}
