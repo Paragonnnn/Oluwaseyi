@@ -1,6 +1,6 @@
 import React from "react";
 
-const mongodb = () => {
+const Mongo = () => {
   return (
     <svg
       viewBox="0 0 100 100"
@@ -31,4 +31,4 @@ const mongodb = () => {
   );
 };
 
-export default mongodb;
+export default Mongo;
