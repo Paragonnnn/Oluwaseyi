@@ -3,7 +3,7 @@ import ReactJs from "../assets/ReactJs";
 import Firebase from "../assets/Firebase";
 import NodeJs from "../assets/NodeJs";
 import TailwindCSS from "../assets/TailwindCSS";
-import Mongodb from "../assets/mongodb";
+import Mongodb from "../assets/Mongodb";
 import Express from "../assets/Express";
 import { BiArrowToRight } from "react-icons/bi";
 import { ThemeContext } from "../Context";
