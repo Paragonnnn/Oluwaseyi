@@ -31,6 +31,8 @@ const Projects = () => {
       title: "Parascore",
       link: "https://parascore.vercel.app",
       stack: [stackList[0], stackList[1], stackList[2]],
+      description:
+        "A real-time football score app that fetches live match data from an API and presents it in a clean, interactive UI.",
     },
     {
       title: "Lineup-Builder",
@@ -42,11 +44,13 @@ const Projects = () => {
         stackList[4],
         stackList[5],
       ],
+      description: "A Line-up builder that allows anyone build their dream team and share with people."
     },
     {
       title: "Starkk",
       link: "https://starkk.vercel.app",
       stack: [stackList[0], stackList[1]],
+        description: "An e-commerce website."
     },
   ];
 
@@ -59,6 +63,8 @@ const Projects = () => {
             <h1 className=" text-2xl mb-4">
               {index + 1}. {project.title}
             </h1>
+            <span className=" text-[20px]">Description: </span>
+            <div className=" text-[16px] mb-2">{project.description}</div>
             <a
               href={project.link}
               target="_blank"

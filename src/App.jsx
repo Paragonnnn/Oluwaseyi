@@ -20,14 +20,14 @@ function App() {
     <div
       className={`${
         theme === "dark" ? "bg-dark text-light" : " bg-light text-dark"
-      }   mx-auto transition-colors duration-300 min-h-screen`}
+      }   mx-auto transition-colors duration-100 min-h-screen`}
     >
       <header
         className={`${
           theme === "dark"
-            ? "border-line/20 bg-dark"
-            : "border-line/100 bg-light"
-        } flex justify-center py-5 md:py-7 md:px-5 px-4 border-b  border-opacity-10 sticky top-0 transition-colors duration-300`}
+            ? "border-dark-line bg-dark"
+            : "border-line bg-light"
+        } flex justify-center py-5 md:py-7 md:px-5 px-4 border-b sticky top-0`}
       >
         <Header />
       </header>
@@ -39,9 +39,9 @@ function App() {
       <footer
         className={`${
           theme === "dark"
-            ? "border-line/20 bg-dark"
-            : "border-line/100 bg-light"
-        } py-5 md:py-7 md:px-5 px-4 text-center border-t  border-opacity-10`}
+            ? "border-dark-line"
+            : "border-line"
+        } py-5 md:py-7 md:px-5 px-4 text-center border-t`}
       >
         <Footer />
       </footer>

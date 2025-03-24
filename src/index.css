@@ -4,13 +4,14 @@
   --color-dark: #222222;
   --color-light: #f8f8f8;
   --color-line: #e5e7eb;
+  --color-dark-line: #e5e7eb20;
   --color-accent: #F06543;
 }
 
 * {
   box-sizing: border-box;
   /* outline: 1px solid red; */
-  font-family: monospace;
+  font-family: 'poppins', monospace;
 }
 *::selection{
   background: #F06543;
