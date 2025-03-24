@@ -44,13 +44,20 @@ const Projects = () => {
         stackList[4],
         stackList[5],
       ],
-      description: "A Line-up builder that allows anyone build their dream team and share with people."
+      description:
+        "A Line-up builder that allows anyone build their dream team and share with people.",
+    },
+    {
+      title: "Dreyxink",
+      link: "https://dreyxinx.vercel.app",
+      stack: [stackList[0], stackList[1]],
+      description: "An e-commerce website.",
     },
     {
       title: "Starkk",
       link: "https://starkk.vercel.app",
       stack: [stackList[0], stackList[1]],
-        description: "An e-commerce website."
+      description: "A story website",
     },
   ];
 
@@ -73,7 +80,7 @@ const Projects = () => {
               <span>See Project</span>
               <BiArrowToRight className="" />
             </a>
-            <div className="flex gap-3 mb-4">
+            <div className="flex gap-3 mb-4 flex-wrap">
               {project?.stack.map((stack, index) => (
                 <span
                   key={`${stack} ${index}`}
