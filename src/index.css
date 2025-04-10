@@ -16,9 +16,9 @@
 *::selection{
   background: #F06543;
 }
-body {
-  /* background-color: #222222; */
-}
+/* body {
+  background-color: #222222;
+} */
 
 @keyframes marquee {
   0% {

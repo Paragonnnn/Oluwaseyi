@@ -6,7 +6,7 @@ import { HiOutlineMenu } from "react-icons/hi";
 
 const Header = () => {
   const { theme, setTheme } = useContext(ThemeContext);
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  // const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <div className="flex justify-between items-center w-[1440px] m-auto">
@@ -17,7 +17,7 @@ const Header = () => {
         <span className="text-accent text-3xl md:text-6xl">O</span>luwaseyi
       </Link>
       <section className="flex items-center gap-3">
-        <ul
+        {/* <ul
           className={`${
             isMenuOpen ? "flex" : "hidden"
           } sm:hidden ${
@@ -64,7 +64,7 @@ const Header = () => {
           >
             Stacks
           </Link>
-        </ul>
+        </ul> */}
         <button
           className={`${
             theme === "dark"
@@ -83,12 +83,12 @@ const Header = () => {
             </div>
           )}
         </button>
-        <button
+        {/* <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           className="focus:outline-accent focus:outline-2 rounded-2xl text-2xl p-[2px] cursor-pointer sm:hidden block"
         >
           <HiOutlineMenu />
-        </button>
+        </button> */}
       </section>
     </div>
   );
